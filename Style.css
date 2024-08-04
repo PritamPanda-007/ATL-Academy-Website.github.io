@@ -30,37 +30,23 @@
 .LowerHead {
     height: 5rem;
     background-color: #8390FA;
-    border: 2px dotted #031283de;
+    border: 0.1rem dashed #031283de;
     border-top: none;
     display: flex;
     justify-content: space-evenly;
     align-items: center ;
      
 }
-.PopularCources {
-    background-color:#1D2F6F ;
-    border-radius: 8%;
+.LowerHeadButtons {
+    background-color:#1D2F6F;
+    border: 0.20rem solid #ffffff;
+    font-size: 1rem;
+    border-radius: 1rem;
     height: 3.5rem;
     width: 10.5rem;
-    align-content:space-around;
-    padding-left: 1.5rem;
+    align-content: center;
 }
-.ComboCources {
-    background-color:#1D2F6F ;
-    border-radius: 8%;
-    height: 3.5rem;
-    width: 10.5rem;
-    align-content:space-around;
-    padding-left: 2rem;
-}
-.YoutubeLink {
-    background-color:#1D2F6F ;
-    border-radius: 8%;
-    height: 3.5rem;
-    width: 11rem;
-    align-content:space-around;
-    padding-left: 1.5rem;
-}
+
      /* Banner Slide */
 
      /* Main Body Styling */
