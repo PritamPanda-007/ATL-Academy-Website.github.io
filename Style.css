@@ -6,7 +6,7 @@
 
 .UpperHead {
     background-color: #1D2F6F;
-    height: 9rem;
+    height: 10rem;
     border: 3px solid #031283d8;
     padding: 1rem 10rem 1rem 10rem;
     display: flex;
@@ -17,13 +17,44 @@
     width: 9.5rem;
     background-image: url("Images/ATL\ logo.png");
     background-size: cover;
+    animation: ATLlogo 3s ease-in-out 0s 1 normal; 
+
+    
+}
+@keyframes ATLlogo {
+    0% {
+        scale: 0;
+    }
+    80% {
+        scale: 1.10;
+    }
+    100% {
+        scale: 1;
+    }
+
 }
 .UpperHeadBanner {
     height: 10rem;
     width: 20rem;
     margin-left: 2rem;
     background-image: url("Images/ATL\ banner.png");
-    background-size: cover;  
+    background-size: cover; 
+    animation: UpperHeadBanner 3s ease-in-out 0s 1 normal; 
+}
+@keyframes UpperHeadBanner {
+    0% {
+        width: 0rem;
+    }
+    80% {
+        width: 20rem;
+        scale: 1;
+    }
+    90% {
+        scale: 1.10;
+    }
+    100% {
+        scale: 1;
+    }
 }
      /* Lower Head styling */
 
@@ -45,6 +76,10 @@
     height: 3.5rem;
     width: 10.5rem;
     align-content: center;
+}
+.LowerHeadButtons:hover {
+    border: 0.20rem solid #FAC748;
+    font-size: 1.1rem;
 }
 
      /* Banner Slide */
