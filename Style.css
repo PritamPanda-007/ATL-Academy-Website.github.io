@@ -7,7 +7,7 @@
 .UpperHead {
     background-color: #1D2F6F;
     height: 10rem;
-    border: 3px solid #031283d8;
+    border-bottom: 3px solid #ffffff;
     padding: 1rem 10rem 1rem 10rem;
     display: flex;
     justify-content:flex-start; 
@@ -18,7 +18,6 @@
     background-image: url("Images/ATL\ logo.png");
     background-size: cover;
     animation: ATLlogo 3s ease-in-out 0s 1 normal; 
-
     
 }
 @keyframes ATLlogo {
@@ -61,7 +60,7 @@
 .LowerHead {
     height: 5rem;
     background-color: #8390FA;
-    border: 0.1rem dashed #031283de;
+    border-bottom: 0.1rem dashed #031283de;
     border-top: none;
     display: flex;
     justify-content: space-evenly;
@@ -82,13 +81,101 @@
     font-size: 1.1rem;
 }
 
-     /* Banner Slide */
-
      /* Main Body Styling */
 .MainBody {
-    height: 20rem;
-    background-color:#fff7f8 ;
+    background-color:#F9E9EC ;
 }
+
+ /* Banner Slide */
+.BannerSliding{
+    height: 20rem;
+    background-color: #F9E9EC;
+    border: 0.5rem solid #F88DAD;
+    padding: 0.5rem;
+    display: flex;
+    
+}
+.BannerSlide {
+    border: 0.25rem solid #1D2F6F;
+    width: 100%;
+    background-size: cover;
+    transition: active 2s ease-in ;
+}
+.BannerSlide:active {
+    scale: 1.5;
+    border: none;
+}
+/* Slide1 */
+#Slide1 {
+    animation: Slide1Animate 20s step-start 0s infinite;
+}
+@keyframes Slide1Animate {
+    
+    20% {
+        background-image: url("Images/Slidepic1.jpg");
+    }
+    40% {
+        background-image: url("Images/Slidepic2SpecialOccation.png");
+    }
+    60% {
+        background-image: url("Images/Slidepic3.jpg");
+    }
+    80% {
+        background-image: url("Images/Slidepic4.jpg");
+    }
+    100% {
+        background-image: url("Images/Slidepic5.jpg");
+    }
+
+}
+/* Slide2 */
+#Slide2 {
+    animation: Slide2Animate 20s step-start 0s infinite;
+}
+@keyframes Slide2Animate {
+    
+    20% {
+        background-image: url("Images/Slidepic2SpecialOccation.png");
+    }
+    40% {
+        background-image: url("Images/Slidepic3.jpg");
+    }
+    60% {
+        background-image: url("Images/Slidepic4.jpg");
+    }
+    80% {
+        background-image: url("Images/Slidepic5.jpg");
+    }
+    100% {
+        background-image: url("Images/Slidepic1.jpg");
+    }
+
+}
+
+/* Slide3 */
+#Slide3 {
+    animation: Slide3Animate 20s step-start 0s infinite;
+}
+@keyframes Slide3Animate {
+    
+    20% {
+        background-image: url("Images/Slidepic3.jpg");
+    }
+    40% {
+        background-image: url("Images/Slidepic4.jpg");
+    }
+    60% {
+        background-image: url("Images/Slidepic5.jpg");
+    }
+    80% {
+        background-image: url("Images/Slidepic1.jpg");
+    }
+    100% {
+        background-image: url("Images/Slidepic2SpecialOccation.png");
+    }
+
+}
+
 
      /* Footer uper styling */
 .footerUpper{  
