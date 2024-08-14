@@ -16,7 +16,7 @@
     height: 9.5rem;
     width: 9.5rem;
     border-radius: 50%;
-    background-image: url("Images/ATL\ logo.png");
+    background-image: url("/ATL-Academy-Webpage-/Images/ATL\ logo.png");
     background-size: cover;
     animation: ATLlogo 4s ease-in-out 0s 1 normal; 
     
@@ -40,7 +40,7 @@
     height: 10rem;
     width: 25rem;
     margin-left: 2rem;
-    background-image: url("Images/ATL\ banner.png");
+    background-image: url("/ATL-Academy-Webpage-/Images/ATL\ banner.png");
     background-size: cover; 
     animation: UpperHeadBanner 4s linear 0s 1 normal; 
 }
@@ -116,19 +116,19 @@
 @keyframes Slide1Animate {
     
     20% {
-        background-image: url("Images/Slidepic1.jpg");
+        background-image: url("/ATL-Academy-Webpage-/Images/Slidepic1.jpg");
     }
     40% {
-        background-image: url("Images/Slidepic2SpecialOccation.png");
+        background-image: url("/ATL-Academy-Webpage-/Images/Slidepic2SpecialOccation.png");
     }
     60% {
-        background-image: url("Images/Slidepic3.jpg");
+        background-image: url("/ATL-Academy-Webpage-/Images/Slidepic3.jpg");
     }
     80% {
-        background-image: url("Images/Slidepic4.jpg");
+        background-image: url("/ATL-Academy-Webpage-/Images/Slidepic4.jpg");
     }
     100% {
-        background-image: url("Images/Slidepic5.jpg");
+        background-image: url("/ATL-Academy-Webpage-/Images/Slidepic5.jpg");
     }
 
 }
@@ -139,19 +139,19 @@
 @keyframes Slide2Animate {
     
     20% {
-        background-image: url("Images/Slidepic2SpecialOccation.png");
+        background-image: url("/ATL-Academy-Webpage-/Images/Slidepic2SpecialOccation.png");
     }
     40% {
-        background-image: url("Images/Slidepic3.jpg");
+        background-image: url("/ATL-Academy-Webpage-/Images/Slidepic3.jpg");
     }
     60% {
-        background-image: url("Images/Slidepic4.jpg");
+        background-image: url("/ATL-Academy-Webpage-/Images/Slidepic4.jpg");
     }
     80% {
-        background-image: url("Images/Slidepic5.jpg");
+        background-image: url("/ATL-Academy-Webpage-/Images/Slidepic5.jpg");
     }
     100% {
-        background-image: url("Images/Slidepic1.jpg");
+        background-image: url("/ATL-Academy-Webpage-/Images/Slidepic1.jpg");
     }
 
 }
@@ -163,19 +163,19 @@
 @keyframes Slide3Animate {
     
     20% {
-        background-image: url("Images/Slidepic3.jpg");
+        background-image: url("/ATL-Academy-Webpage-/Images/Slidepic3.jpg");
     }
     40% {
-        background-image: url("Images/Slidepic4.jpg");
+        background-image: url("/ATL-Academy-Webpage-/Images/Slidepic4.jpg");
     }
     60% {
-        background-image: url("Images/Slidepic5.jpg");
+        background-image: url("/ATL-Academy-Webpage-/Images/Slidepic5.jpg");
     }
     80% {
-        background-image: url("Images/Slidepic1.jpg");
+        background-image: url("/ATL-Academy-Webpage-/Images/Slidepic1.jpg");
     }
     100% {
-        background-image: url("Images/Slidepic2SpecialOccation.png");
+        background-image: url("/ATL-Academy-Webpage-/Images/Slidepic2SpecialOccation.png");
     }
 
 }
