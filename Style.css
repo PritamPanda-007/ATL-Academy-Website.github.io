@@ -65,10 +65,18 @@
     height: 5rem;
     background-color: #8390FA;
     border: 0.1rem dashed #031283de;
-    border-top: none;
+    border-top: none; 
     display: flex;
     justify-content: space-evenly;
-    align-items: center ; 
+    align-items: center;
+}
+.HeadButtons {
+    height: 5rem;
+    width: 95%;
+    background-color: #8390FA;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .LowerHeadButtons {
     background-color:#1D2F6F;
@@ -82,16 +90,30 @@
 .LowerHeadButtons:hover {
     border: 0.20rem solid #FAC748;
     font-size: 1.1rem;
+    box-shadow: 5px 5px 6px #000000;
 }
+.LowerHeadMenuBar {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 5px;
+    background-color: #cfcfcfde;
+    font-size: larger;
+    display: inline-block;
+}
+.LowerHeadMenuBar:active {
+    scale: 1.05;
+    box-shadow: 2px 2px 3px #000;
+} 
 
      /* Main Body Styling */
+
 .MainBody {
     background-color:#F9E9EC ;
 }
 
      /* Banner Slide */
 .BannerSliding{
-    height: 22rem;
+    height: 20rem;
     background-color: #F9E9EC;
     padding: 0.5rem 0.1rem 1rem;
     display: flex;
@@ -207,8 +229,17 @@ iframe {
 }
 .AddressDiv {
     align-self: center;
-    scale: 1.7;
+    scale: 1.5;
+    line-height: 1.4rem;
     
+}
+.Gmap {
+    font-size: small;
+    transform: translateX(2rem);
+}
+.Gmap:hover {
+    color: #FAC748;
+    scale: 1.1;
 }
 .LastLogo {
     height: 7.5rem;
@@ -219,7 +250,13 @@ iframe {
 }
 .ConactDiv {
     align-self: center;
-    scale: 1.7;
+    scale: 1.4;
+    line-height: 1.5rem;
+}
+.ContactStyle:hover {
+    font-weight: 600;
+    font-family: cursive;
+    scale: 1.01;
 }
 .footerLower {
    height: 10rem;
