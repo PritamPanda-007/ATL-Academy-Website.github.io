@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ATL Academy</title>
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="/ATL-Academy-Webpage-/CSS Files/Indexpg.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -17,17 +17,15 @@
          </div>
          <!--Lower head-->
          <div class="LowerHead">
-             <div class="HeadButtons">
-                 <a href="PopularCources.html" target="main"><button class="LowerHeadButtons">Popular Cources</button></a>
-                 <a href="ComboCource.html" target="main"><button class="LowerHeadButtons">Combo Cources</button></a>
-                 <a href="http://www.youtube.com/@AbhisTechLab"; target="main"><button class="LowerHeadButtons">Youtube <i class="fa-brands fa-youtube fa-beat" style="color: #ff0000;"></i></button></a>
-             </div>
-             <div class="MenuButton"> <button class="LowerHeadMenuBar"><i class="fa-solid fa-bars"></i></button></div>
+            <a href="PopularCources.html"><button class="LowerHeadButtons">Popular Courses</button></a>
+            <a href="ComboCource.html"><button class="LowerHeadButtons">Combo Courses</button></a>
+            <a href="http://www.youtube.com/@AbhisTechLab"; target="main"><button class="LowerHeadButtons">Youtube <i class="fa-brands fa-youtube fa-beat" style="color: #ff0000;"></i></button></a>
          </div>
      </div>
   </header>
    <main>
        <!--Main Webpage Body-->
+     <div class="MainBody">
          <div class="BannerSliding">
              <!--Banner sLIDING-->
              <div class="BannerSlide" id="Slide1"></div>
@@ -46,13 +44,16 @@
              <div class="studentMessage"></div>
              <div class="moreResults"></div>
          </div>
-          <div class="Feedback"></div>
+          <div class="Feedback">
+            <!--Feedback form-->
+          </div>
           <div class="YouTubeVideos">
-             <div class="Video" id="Vid1">
-                <iframe width="600px" height="400px" src="https://www.youtube.com/embed/jtdeHRUOF9I?si=nkHBbxbbHv6RyJPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+             <!--Suggestive videos-->
+             <div>
+                 <iframe width="600px" height="400px" src="https://www.youtube.com/embed/jtdeHRUOF9I?si=nkHBbxbbHv6RyJPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
              </div>
-             <div class="video" id="Vid2">
-                <iframe width="600px" height="400px"  src="https://www.youtube.com/embed/mU-7CLihkAI?si=5Ig490808ttSnzy8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+             <div>
+                 <iframe width="600px" height="400px"  src="https://www.youtube.com/embed/mU-7CLihkAI?si=5Ig490808ttSnzy8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
              </div>
           </div>
      </div>
@@ -60,13 +61,14 @@
    <footer>
      <div class="footerDiv">
          <div class="footerUpper">
-             <div class="AddressDiv">30, bosepukur sarkarpara, <br>P.O: Narendrapur, Rajpur Sonarpur, <br>Kolkata, West Bengal  700149 <br>
-              <div class="Gmap">
-                  <pre><a href="https://maps.app.goo.gl/BU75ptNuK8o9TmAeA" target="main" style="text-decoration: none;">Click Here  <i class="fa-solid fa-map-location-dot"></i></a></pre>
-              </div>
+             <div class="AddressDiv">
+                 30, bosepukur sarkarpara, <br> P.O: Narendrapur, <br> Rajpur Sonarpur, Kolkata, <br> West Bengal  700149 <br>
+                 <div class="locate">
+                    <a href="https://maps.app.goo.gl/BU75ptNuK8o9TmAeA" target="main" style="text-decoration: none"><pre class="Gmap">Click here <i class="fa-solid fa-map-location-dot"></i></pre></a>
+                 </div>
              </div>
-             <div class="LastLogo"></div>
-             <div class="ConactDiv">
+             <div class="ATLfooter"></div>
+             <div class="ContactDiv">
                  <ul>
                      <li class="ContactStyle"><i class="fa-brands fa-whatsapp"></i> 7980030315</li>
                      <li class="ContactStyle"><i class="fa-brands fa-whatsapp"></i> 8902472863</li>
