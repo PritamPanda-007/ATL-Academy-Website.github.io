@@ -45,3 +45,40 @@
     font-size: 1.1rem;
     box-shadow: 5px 5px 6px #000000;
 }
+/* main body styling */
+.mainbody {
+    background-color: #F9E9EC ;
+ }
+ /* All course designs */
+ .coursediv {
+     height: 20rem;
+     width: 100%;
+     border: 5px solid ;
+     border-top: none;
+     border-radius: 10rem 0 0 10rem;
+     padding-left: 5rem;
+     display: flex;
+     align-items: center;
+ }
+ /* Course div custom design */
+ #course1 {
+     border-color: #645DD7;
+ }
+ #course2 {
+     border-color: #FB62F6;
+ }
+ #course3 {
+     border-color: #FF4242;
+ }
+ /* trending number */
+ .trendingNo {
+     height: 10rem;
+     width: 10rem;
+     background-color: #FAC748;
+     border-radius: 50%;
+     border: 2px #ff0000 double ;
+     font-size: 7rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
