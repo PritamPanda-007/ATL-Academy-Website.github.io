@@ -51,34 +51,37 @@
  }
  /* All course designs */
  .coursediv {
-     height: 20rem;
-     width: 100%;
-     border: 5px solid ;
-     border-top: none;
-     border-radius: 10rem 0 0 10rem;
-     padding-left: 5rem;
-     display: flex;
-     align-items: center;
+    height: 20rem;
+    width: 100%;
+    border: 5px solid ;
+    border-top: none;
+    border-radius: 10rem 0 0 10rem;
+    padding-left: 5rem;
+    display: flex;
+    align-items: center;
  }
  /* Course div custom design */
  #course1 {
-     border-color: #645DD7;
+    border-color: #645DD7;
  }
  #course2 {
-     border-color: #FB62F6;
+    border-color: #FB62F6;
  }
  #course3 {
-     border-color: #FF4242;
+    border-color: #FF4242;
  }
  /* trending number */
  .trendingNo {
-     height: 10rem;
-     width: 10rem;
-     background-color: #FAC748;
-     border-radius: 50%;
-     border: 2px #ff0000 double ;
-     font-size: 7rem;
-     display: flex;
-     justify-content: center;
-     align-items: center;
+    height: 10rem;
+    width: 10rem;
+    background: linear-gradient(to right bottom , red,yellow);
+    font-size: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%); */
+    /* clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); */
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    /* clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); */
  }
+ 

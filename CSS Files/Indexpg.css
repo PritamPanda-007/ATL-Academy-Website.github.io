@@ -111,6 +111,42 @@
     background-color:#F9E9EC ;
 }
 
+     /* Header Bar Design */
+
+.BarIconANDContent { 
+    position: absolute;
+    top: 14rem;
+    right: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    visibility: hidden;
+    
+}
+.BarIcon {
+    height: 1.9rem;
+    width: 2rem;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 5px;
+    background-color: #b9b2b8;
+    border-radius: 30%;
+    border: 2px solid whitesmoke;
+}
+.BarIconANDContent:hover {
+    height: 10rem;
+    width: 8.5rem;
+    background-color: #eff3ef;
+    border: 2px double whitesmoke;
+    border-radius: 1rem;
+}
+.BarItems {
+    margin-top: 2.5rem;
+    border-top: 2px dotted white;
+    
+}
+.ItemList {
+      line-height: 2rem;
+}
      /* Banner Slide */
 .BannerSliding{
     height: 20rem;
