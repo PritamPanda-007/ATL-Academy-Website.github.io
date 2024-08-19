@@ -92,18 +92,7 @@
     font-size: 1.1rem;
     box-shadow: 5px 5px 6px #000000;
 }
-.LowerHeadMenuBar {
-    height: 2rem;
-    width: 2rem;
-    border-radius: 5px;
-    background-color: #cfcfcfde;
-    font-size: larger;
-    display: inline-block;
-}
-.LowerHeadMenuBar:active {
-    scale: 1.05;
-    box-shadow: 2px 2px 3px #000;
-} 
+
 
      /* Main Body Styling */
 

@@ -14,7 +14,7 @@
 }
 .ATLlogo {
     height: 5.8rem;
-    width: 5%;
+    width: 5.8rem;
     background-image: url("/ATL-Academy-Webpage-/Images/ATL\ logo.png");
     background-size: cover;
 }
@@ -46,9 +46,8 @@
     box-shadow: 5px 5px 6px #000000;
 }
 /* main body styling */
-.mainbody {
-    background-color: #F9E9EC ;
- }
+/* .mainbody {
+ } */
  /* All course designs */
  .coursediv {
     height: 20rem;
@@ -70,26 +69,27 @@
  #course3 {
     border-color: #FF4242;
  }
- /* trending number */
- .trendingNo {
-    height: 10rem;
-    width: 10rem;
-    background: linear-gradient(to right bottom , red,yellow);
-    font-size: 4.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
- }
+ 
  
  /* Course Image Design */
  .coursePic {
-    height: 15rem;
-    width: 20rem;
-    border: 2px dashed #1D2F6F;
+    height: 17rem;
+    width: 33rem;
+    border: 2px solid #1D2F6F;
     margin: 7rem;
     border-radius: 0 5rem 0 5rem;
+    background-size: cover;
  }
 
- 
+#coursepic1 {
+    background-image: url("/ATL-Academy-Webpage-/Images/PCourse1Pic.png");
+}
+
+#coursepic2 {
+    background-image: url("/ATL-Academy-Webpage-/Images/PCourse2Pic.png");
+}
+
+#coursepic3 {
+    background-image: url("/ATL-Academy-Webpage-/Images/PCourse3Pic.png");
+}
 
