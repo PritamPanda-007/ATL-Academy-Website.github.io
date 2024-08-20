@@ -38,12 +38,13 @@
     border-radius: 1rem;
     height: 3.5rem;
     width: 10.5rem;
-    align-content: center
+    align-content: center;
+    transition: box-shadow 0.35s ease;
 }
 .headButton:hover {
     border: 0.20rem solid #FAC748;
     font-size: 1.1rem;
-    box-shadow: 5px 5px 6px #000000;
+    box-shadow: 5px 5px 0px #000000;
 }
 /* main body styling */
 /* .mainbody {
