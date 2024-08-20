@@ -2,6 +2,7 @@
     color: #ffffff;
     margin: 0;
 }
+
       /* Upper Head styling */
 
 .UpperHead {
@@ -12,6 +13,7 @@
     display: flex;
     justify-content:flex-start; 
 }
+
 .ATLlogo {
     height: 9.5rem;
     width: 9.5rem;
@@ -21,6 +23,7 @@
     animation: ATLlogo 4s ease-in-out 0s 1 normal; 
     
 }
+
 @keyframes ATLlogo {
     0% {
         scale: 0;
@@ -36,6 +39,7 @@
     }
 
 }
+
 .UpperHeadBanner {
     height: 10rem;
     width: 25rem;
@@ -44,6 +48,7 @@
     background-size: cover; 
     animation: UpperHeadBanner 4s linear 0s 1 normal; 
 }
+
 @keyframes UpperHeadBanner {
     0% {
         width: 0rem;
@@ -59,6 +64,7 @@
         scale: 1;
     }
 }
+
      /* Lower Head styling */
 
 .LowerHead {
@@ -70,6 +76,7 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
 .HeadButtons {
     height: 5rem;
     width: 95%;
@@ -78,6 +85,7 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
 .LowerHeadButtons {
     background-color:#1D2F6F;
     border: 0.20rem solid #ffffff;
@@ -87,6 +95,7 @@
     width: 10.5rem;
     align-content: center;
 }
+
 .LowerHeadButtons:hover {
     border: 0.20rem solid #FAC748;
     font-size: 1.1rem;
@@ -101,6 +110,7 @@
 }
 
      /* Banner Slide */
+
 .BannerSliding{
     height: 20rem;
     background-color: #F9E9EC;
@@ -108,22 +118,27 @@
     display: flex;
     
 }
+
 .BannerSlide {
     border: 0.15rem solid #1D2F6F;
     width: 100%;
     background-size: cover;
     transition: active 2s ease-in ;
 }
+
 .BannerSlide:active {
     scale: 1.2;
     border: none;
     border-radius: 2rem;
    
 }
+
      /* Slide1 */
+
 #Slide1 {
     animation: Slide1Animate 25s step-start 0s infinite ;
 }
+
 @keyframes Slide1Animate {
     
     20% {
@@ -143,10 +158,13 @@
     }
 
 }
+
      /* Slide2 */
+
 #Slide2 {
     animation: Slide2Animate 25s step-start 0s infinite;
 }
+
 @keyframes Slide2Animate {
     
     20% {
@@ -168,6 +186,7 @@
 }
 
      /* Slide3 */
+
 #Slide3 {
     animation: Slide3Animate 25s step-start 0s infinite;
 }
@@ -190,6 +209,7 @@
     }
 
 }
+
      /* YouTube Videos */
 
 .YouTubeVideos {
@@ -199,14 +219,17 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
 .YouTubeVideos iframe:hover {
     scale: 1.1;
     border: 1.5px solid #ffffff;
     box-shadow: 12px 12px 10px #000000;
 }
+
 iframe {
     border-radius: 1rem;
 }
+
      /* Footer */
 
 .footerUpper {
@@ -216,20 +239,24 @@ iframe {
     justify-content: space-around;
     
 }
+
 .AddressDiv {
     align-self: center;
     scale: 1.5;
     line-height: 1.4rem;
     
 }
+
 .Gmap {
     font-size: small;
     transform: translateX(2rem);
 }
+
 .Gmap:hover {
     color: #FAC748;
     scale: 1.1;
 }
+
 .ATLfooter{
     height: 7.5rem;
     width: 16rem;
@@ -237,16 +264,13 @@ iframe {
     background-size: cover;
     align-self: flex-end;
 }
+
 .ContactDiv {
     align-self: center;
     font-size: x-large;
     line-height: 2rem;
 }
-.ContactStyle:hover {
-    font-weight: 500;
-    font-family: cursive;
-    scale: 1.01;
-}
+
 .footerLower {
    height: 10rem;
    background-color: #000000;
