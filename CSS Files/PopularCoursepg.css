@@ -77,7 +77,9 @@
     height: 17rem;
     width: 33rem;
     border: 2px solid #1D2F6F;
-    margin: 7rem;
+    margin-left: 7rem;
+    margin-right: -4rem;
+    z-index: 1;
     border-radius: 0 5rem 0 5rem;
     background-size: cover;
  }
@@ -93,4 +95,27 @@
 #coursepic3 {
     background-image: url("/ATL-Academy-Webpage-/Images/PCourse3Pic.png");
 }
+
+/* Course Details Div */
+
+.CourseDetail {
+    height: 15rem;
+    width: 32rem;
+    color: #1D2F6F;
+    border: 2px dashed #1D2F6F;
+    border-left: none;
+    padding: 1rem 1rem 1rem 5rem;
+    border-top-right-radius: 5rem;
+}
+
+
+/* Course Name Div Design */
+
+/* .courseName {
+    height: 3rem;
+    width: 27rem;
+    border: 2px solid #f88dad;
+    margin-top: 3rem;
+    
+} */
 
