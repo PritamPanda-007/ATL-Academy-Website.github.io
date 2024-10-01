@@ -15,7 +15,7 @@
 .ATLlogo {
     height: 5.8rem;
     width: 5.8rem;
-    background-image: url("/ATL-Academy-Webpage-/Images/ATL\ logo.png");
+    background-image: url("/ATL-Academy-Website.github.io/Images/ATL\ logo.png");
     background-size: cover;
 }
 .headButtonPanel {
@@ -85,15 +85,15 @@
  }
 
 #coursepic1 {
-    background-image: url("/ATL-Academy-Webpage-/Images/PCourse1Pic.png");
+    background-image: url("/ATL-Academy-Website.github.io/Images/PCourse3Pic.png");
 }
 
 #coursepic2 {
-    background-image: url("/ATL-Academy-Webpage-/Images/PCourse2Pic.png");
+    background-image: url("/ATL-Academy-Website.github.io/Images/PCourse2Pic.png");
 }
 
 #coursepic3 {
-    background-image: url("/ATL-Academy-Webpage-/Images/PCourse3Pic.png");
+    background-image: url("/ATL-Academy-Website.github.io/Images/PCourse3Pic.png");
 }
 
 /* Course Details Div */
